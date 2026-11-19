@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v6
 
       - name: "🐍 Set up Python and uv"
-        uses: "./.github/actions/uv_setup"
+        uses: "./.github/actions/uv_setup" # setup-uv v10.3.3
         with:
           python-version: "3.13"
           enable-cache: "false"
